@@ -1,0 +1,14 @@
+# Créer le fichier
+touch backend/.gitignore
+
+# Ouvrir le fichier et ajouter ces lignes (pour Python/Django ou Flask) :
+# Environnement virtuel
+venv/
+.venv/
+# Logs
+*.log
+# Fichiers de cache et de compilation
+__pycache__/
+*.pyc
+# Base de données locale (si utilisée, ex: SQLite)
+db.sqlite3

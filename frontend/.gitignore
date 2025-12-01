@@ -1,0 +1,10 @@
+# Créer le fichier
+touch frontend/.gitignore
+
+# Ouvrir le fichier et ajouter ces lignes (pour React/Node) :
+# Dépendances NPM
+/node_modules
+# Logs et build
+npm-debug.log
+build/
+dist/
